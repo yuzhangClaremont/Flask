@@ -1,4 +1,6 @@
 # Virtualenv
+.wsgi
+.txt
 .Python
 bin
 lib

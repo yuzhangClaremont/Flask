@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{%block body%}
+
+
+        <!-- hello -->
+        <h1>Flsk Train</h1>  
+            <!-- code block of template -->
+            <p>hey {{n}}</p>
+            {% for post in p %}
+            <!-- 2{} is sambal of variable -->
+                <h1>{{post.title}}</h1> 
+                <p>By {{post.author}}</p>
+                <p>{{post.content}}</p>
+            {% endfor%}
+        
+            <!-- if name is set -->
+            {% if n %} 
+            <h2>hello {{n}}</h2>
+            {% else %}
+            <h2>please login</h2>
+            {% endif %}
+
+            <div class="container">
+                <h1>hello, world</h1>
+            </div>
+        
+            
+
+{%endblock%}
+
+
+
+
+
+
