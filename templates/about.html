@@ -1,17 +1,8 @@
+{% extends 'layout.html' %}
 
-<!doctype html>
-<html>
-<head>
-    
-    <link rel="stylesheet" type = "text/css" href="{{url_for('static',filename='style.css')}}">
-
-    {%if title%}
-    <title>Utopian Rainbow - {{title}}</title>
-    {%else%}
-    <title>no title</title>
-    {%endif%}
-</head>
+{%block body%}
 
 <body>
     about
 </body>
+{%endblock%}
